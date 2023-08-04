@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(TempConverter.FahrenheitToCelsius(32));
+            Console.WriteLine("Fahrenheit - > Celsius");
+            
+            Console.WriteLine(TempConverter.CelsiusToFahrenheit(0));
+            Console.WriteLine("Celsius - > Fahrenheit");
+
+        
+        
+        
         }
+
     }
 }
